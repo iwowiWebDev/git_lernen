@@ -7,4 +7,9 @@ How to play a game
 * Clone the repository
 * open the `index.html` file
 * Choose your difficulty (beginner, medium, difficult, invincible)
+* Choose your preferred mode (dark, light)
+* Click on 'Start game'
 * Have fun!
+
+## Minimax-algorithm
+![Minimax-algorithm](https://static.javatpoint.com/tutorial/ai/images/mini-max-algorithm-in-ai-step1.png)
