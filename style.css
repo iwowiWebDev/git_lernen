@@ -1,0 +1,87 @@
+:root{
+  --text-color: black;
+  --body-bg-color: white;
+}
+
+body{
+  background-color: var(--body-bg-color);
+  color: var(--text-color);
+}
+
+.content{
+  max-width: 500px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: 'Roboto Mono';
+}
+.content h1{
+  color: var(--text-color);
+  font-family: 'Roboto Mono';
+  text-align: center;
+}
+
+.buttons {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.buttons button {
+  margin: 0 4px;
+  font-family: 'Roboto Mono';
+  border: 0;
+  color: white;
+  padding: 8px 13px;
+  background-color: #512DA8;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#difficulty-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+#difficulty-container div{
+  display: flex;
+  flex-direction: row;
+}
+#difficulty-container label {
+  padding: 5px 8px;
+  margin: 0 3px;
+  cursor: pointer;
+}
+#difficulty-container input[type="radio"]:checked+label{
+  background-color: #6AEBC0;
+  color: black;
+  font-weight: bold;
+}
+#difficulty-container input{
+  display: none;
+}
+
+
+#container {
+  font-size: 50px;
+
+  width: 100%;
+}
+
+.row{
+  width: 100%;
+}
+
+.cell{
+  height: 100px;
+  width: 33%;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+  cursor: pointer;
+}

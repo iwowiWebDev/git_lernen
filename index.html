@@ -1,11 +1,61 @@
-<<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Git lernen</title>
-  </head>
-  <body>
-    <h1>Title</h1>
-    <h4>CRRAAAZYYYYY</h4>
-  </body>
+<!DOCTYPE html>
+<html>
+
+<header>
+    <title>Tic Tac Toe with Minimax</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+</header>
+<body>
+    <div class="content">
+        <h1>Tic Tac Toe Spiel</h1>
+
+        <form id="difficulty-container" name="difficultyForm">
+            <div>
+                <input type="radio" id="easy" name="difficulty" value="1" checked>
+                <label for="easy">Einfach</label><br>
+            </div>
+            <div>
+                <input type="radio" id="middle" name="difficulty" value="2">
+                <label for="middle">Mittel</label><br>
+            </div>
+            <div>
+                <input type="radio" id="difficult" name="difficulty" value="4">
+                <label for="difficult">Schwierig</label>
+            </div>
+            <div>
+                <input type="radio" id="invincible" name="difficulty" value="9">
+                <label for="invincible">Unbesiegbar</label>
+            </div>
+        </form>
+
+        <div class="buttons">
+            <button onclick="startGame()">Spiel starten</button>
+            <button onclick="toggleMode()">Dark Mode</button>
+        </div>
+
+        <table id="container">
+            <tr class="row">
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+            </tr>
+            <tr class="row">
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+            </tr>
+            <tr class="row">
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+            </tr>
+        </table>
+
+        <p id="end-message"></p>
+    </div>
+
+    <script src="scriptTS.js"></script>
+</body>
 </html>
