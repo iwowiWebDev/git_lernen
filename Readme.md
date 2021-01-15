@@ -12,7 +12,6 @@ The ai-player is based on the MiniMax-algorithm which is usually used in these k
 * Have fun!
 
 ## Minimax-algorithm
-![Minimax-algorithm](https://alialaa.com/static/548515d9523f2545c11f5371f1e6a4b8/01ab0/minimax-2.jpg)
 #### Algorithm
 The minimax algorithm is commonly used in those games. The idea is to generate all possible turns based on the actual state until the specified depth is raeched.
 If the depth is reached, the leafs are evaluated by an evaluation function. Depending on being the maximizing (you) or minimizing (enemy) node, the maximum/minimum of the children is taken.
@@ -24,3 +23,5 @@ As we want to take the turn that brings us the fastest win, the board value is a
 * Enemy wins: -100 + depth
 * Nobody wins: 0
 
+#### Illustration
+![Minimax-algorithm](https://alialaa.com/static/548515d9523f2545c11f5371f1e6a4b8/01ab0/minimax-2.jpg)
