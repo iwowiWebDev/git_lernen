@@ -24,4 +24,4 @@ As we want to take the turn that brings us the fastest win, the board value is a
 * Nobody wins: 0
 
 #### Illustration
-<img src="https://alialaa.com/static/548515d9523f2545c11f5371f1e6a4b8/01ab0/minimax-2.jpg" width="450" />
+<img src="https://alialaa.com/static/548515d9523f2545c11f5371f1e6a4b8/01ab0/minimax-2.jpg" width="50%" />
